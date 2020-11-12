@@ -1,0 +1,328 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="SnippetsCSS/SnippetsCss.css" type="text/css" media="all" rel="stylesheet" />
+<script src="SnippetsJS/sideNavSnippets.js" type="text/javascript" rel="alternate" /></script>
+<script src="SnippetsJS/SliderJS.js" type="text/javascript" rel="alternate" /></script>
+<script src="SnippetsJS/progressBars.js" type="text/javascript" rel="alternate" /></script>
+<script src="SnippetsJS/txtsOnly.js" type="text/javascript" rel="alternate" /></script>
+<title>Snippets</title>
+
+</head>
+
+<body>
+	<div id="GenContents">
+    	<div id="TopHeader">
+        	<h2 class="txTasLogo">CODE <br /> SNIPPET</h2>
+           <span class="SideNavDoor1" id="SideNavDoor1" onclick="OpenSideNav()"> &#9776; </span>
+           <span class="SideNavDoor2" id="SideNavDoor2" onclick="CloseSideNav()"> &times; </span>
+          <div id="NavDrop">
+			<div id="NavContent" class="NavContent">
+                <a class="link" href="###"><h2 align="right" id="Itms1">HOME		</h2></a>
+                <a class="link" href="###"><h3 align="right" id="Itms1">ABOUT US	</h3></a>
+                <a class="link" href="###"><h3 align="right" id="Itms1">SERVICES	</h3></a>
+                <a class="link" href="###"><h3 align="right" id="Itms1">OUR TEAM	</h3></a>
+                <a class="link" href="###"><h3 align="right" id="Itms1">PRICE PLANS	</h3></a>
+                <a class="link" href="###"><h3 align="right" id="Itms1">TESTIMONIAL	</h3></a>
+                <a class="link" href="###"><h3 align="right" id="Itms1">CONTACT		</h3></a>
+			</div>
+           </div>
+		</div>
+
+<!-- /*ImgPart DIV Tag beolow***********************************************************************************/ -->
+<!-- /*********************************************************************************************************/ -->
+        <div id="ImgPart"  align="center">
+            <div class="next" id="next" onclick="SlidePlus(1);">&#10095;</div>
+            <div class="prev" id="prev" onclick="SlidePlus(-1)">&#10094;</div>
+            
+			<embed id="Img1" class="Imgs" src="imgs/IMG_20200909_170925.jpg" onclick="imgFullShow()"></embed>
+            <embed id="Img2" class="Imgs" src="imgs/IMG_20200927_152008.jpg" onclick="imgFullShow()"></embed>
+            <embed id="Img3" class="Imgs" src="imgs/IMG_20201012_140903_1602508323758.jpg" onclick="imgFullShow()">
+            </embed>
+
+			<div id="DivCheck">
+                <embed id="mgs" class="mgs" src="imgs/IMG_20200909_170925.jpg"
+                onclick="CurrentSlide(1)"></embed>
+
+                <embed id="mgs" class="mgs"src="imgs/IMG_20200927_152008.jpg"
+                onclick="CurrentSlide(2)"></embed>
+ 
+              	<embed id="mgs" class="mgs" src="imgs/IMG_20201012_140903_1602508323758.jpg"
+                onclick="CurrentSlide(3)">  </embed>
+
+                
+                <div id="imgSlide1" class="slideFlow" onclick="CurrentSlide(1)"></div>
+                <div id="imgSlide2" class="slideFlow" onclick="CurrentSlide(2)"></div>
+                <div id="imgSlide3" class="slideFlow" onclick="CurrentSlide(3)"></div>
+            </div>
+            
+        </div>
+
+<!-- /*AboutUs DIV Tag beolow***********************************************************************************/ -->
+<!-- /*********************************************************************************************************/ -->
+        <div id="aboutUs">
+               <div id="TxtBar">
+             		<h2 class="aboutHead">ABOUT US</h2>
+                    <p class="aboutTxt">
+                    	<script>TxtsFuncs();</script>
+                    </p>
+                    <p id="aboutTxt2" style="display:none">
+                    	<script>TxtsFuncs();</script>
+                    </p>
+                    <button type="button" id="showbutton1" onclick="txtShow()"> <h3>Read More &#10095; &#10095;</h3>
+                    </button>
+                    <button type="button" id="showbutton2" onclick="txtHide()"> <h3>Read Less &#10094; &#10094;</h3>
+                    </button>  
+                             
+               </div>
+
+               <div id="ProgressBars">
+               	<h3 class="ProgBarTxt">Web Development</h3>
+                	<div id="Bars">
+                    	<div id="Bar1" align="center">90%</div>
+               		</div>
+
+                <h3 class="ProgBarTxt">Digital Marketing</h3>
+                	<div id="Bars">
+                    	<div id="Bar2" align="center">80%</div>
+               		</div>
+
+				<h3 class="ProgBarTxt">Mobile Development</h3>
+                	<div id="Bars">
+                    	<div id="Bar3" align="center">50%</div>
+               		</div>
+
+				<h3 class="ProgBarTxt">Full Stack Development</h3>
+                	<div id="Bars">
+                    	<div id="Bar4" align="center">50%</div>
+               		</div>
+                    <button type="button" id="progressButton" onclick="loadProgress()">
+                    	Click to refresh progress &#10095;&#10095;
+                    </button>
+               </div>
+               
+        </div>
+
+<!-- /*Services DIV Tag beolow**********************************************************************************/ -->
+<!-- /*********************************************************************************************************/ -->
+		<div id="Services" align="center">
+           		<h1 class="serviceClass">Our Services</h1>
+                	<div class="underLineDiv"></div>
+                        <span class="contentsDiv">
+                        	<h2 id="ServicesDisp">Web Development</h2>
+                            <h4 id="txts">
+                            	<script>TxtsFuncs002();</script>
+                            </h4>
+                        </span>
+                        
+                        <span class="contentsDiv">
+                        	<h2 id="ServicesDisp">Mobile Development</h2>
+                            <h4 id="txts">
+                            	<script>TxtsFuncs002();</script>
+                            </h4>
+                        </span>
+                        
+                        <span class="contentsDiv">
+                        	<h2 id="ServicesDisp">Digital Marketing</h2>
+                            <h4 id="txts">
+                            	<script>TxtsFuncs002();</script>
+                            </h4>
+                        </span>
+                        
+                        <span class="contentsDiv">
+                        	<h2 id="ServicesDisp">Full stack</h2>
+                            <h4 id="txts">
+                            	<script>TxtsFuncs002();</script>
+                            </h4>
+                        </span>
+		</div>
+
+<!-- /*Team DIV Tag beolow**************************************************************************************/ -->
+<!-- /*********************************************************************************************************/ -->
+
+		<div id="Team" align="center">
+        	<h1 class="HeaderTxt1">Our Team</h1>
+	            <div class="underLineDiv2"></div>
+
+                <div class="TeamContent" id="TeamContent">
+					<embed class="TeamImg" src="imgs/IMG_20200909_170925.jpg"> </embed>
+                    	<br />
+                        <h3 class="TeamNameId">Akuezue C. Gerald</h3>
+                        <p class="Discription">
+                        	<script>infoTestimonial();</script><br /><br />
+                            <script>infoTestimonial();</script>
+                        </p>
+                </div>
+
+                <div class="TeamContent">
+					<embed class="TeamImg" src="imgs/IMG_20201012_140903_1602508323758.jpg"> </embed>
+                    	<br />
+                        <h3 class="TeamNameId">Akuezue C. Gerald</h3>
+                        <p class="Discription">
+                        	<script>infoTestimonial();</script><br /><br />
+                            <script>infoTestimonial();</script>
+                        </p>
+                </div>
+
+                <div class="TeamContent">
+					<embed class="TeamImg" src="imgs/IMG_20200927_152008.jpg"> </embed>
+                    	<br />
+                        <h3 class="TeamNameId">Akuezue C. Gerald</h3>
+                        <p class="Discription">
+                        	<script>infoTestimonial();</script><br /><br />
+                            <script>infoTestimonial();</script>
+                        </p>
+                </div>
+
+                <div class="TeamContent">
+					<embed class="TeamImg" src="imgs/IMG_20200909_170925.jpg"> </embed>
+                    	<br />
+                        <h3 class="TeamNameId">Akuezue C. Gerald</h3>
+                        <p class="Discription">
+                        	<script>infoTestimonial();</script><br /><br />
+                            <script>infoTestimonial();</script>
+                        </p>
+                </div>
+
+		</div>
+
+<!-- /*Price Plan DIV Tag beolow********************************************************************************/ -->
+<!-- /*********************************************************************************************************/ -->
+		<div id="pPlans" align="center">
+        	<h1 class="HeaderTxt">Price Plans</h1>
+	            <div class="underLineDiv2"></div>
+
+            <div class="plans" id="planz1">
+                <div class="plan_Contents">
+                    <h2>DIGITAL</h2> <h3>MARKETTING</h3>
+                    <h3 class="price">N20,000/ Month</h3>
+                </div>
+                        <p class="Item_1"> SEO </p><br />
+                        <p class="Item_1"> SEM </p><br />
+                        <p class="Item_0"> HTML </p><br />
+                        <p class="Item_0"> CSS </p><br />
+                        <p class="Item_0"> JAVASCRIPT </p><br />
+                        <button type="button" class="joiNbut">Join Now</button>
+			</div>
+
+            <div class="plans">
+                <div class="plan_Contents">
+                    <h2>FRONT-<br />END</h2> <h3> DEVELOPMENT</h3>
+                    <h3 class="price">N35,000/ Month</h3>
+                </div>
+                        <p class="Item_1"> HTML </p><br />
+                        <p class="Item_1"> CSS </p><br />
+                        <p class="Item_1"> JavaScript </p><br />
+                        <p class="Item_0"> MySQL </p><br />
+                        <p class="Item_0"> PHP </p><br />
+                        <button type="button" class="joiNbut">Join Now</button>
+			</div>
+
+            <div class="plans">
+                <div class="plan_Contents">
+                    <h2>FULL-<br />STACK </h2> <h3> DEVELOPMENT</h3>
+                    <h3 class="price">N45,000/ Month</h3>
+                </div>
+                        <p class="Item_1"> HTML </p><br />
+                        <p class="Item_1"> CSS </p><br />
+                        <p class="Item_1"> JavaScript </p><br />
+                        <p class="Item_1"> MySQL </p><br />
+                        <p class="Item_1"> PHP </p><br />
+                        <button type="button" class="joiNbut">Join Now</button>
+			</div>
+
+            <div class="plans">
+                <div class="plan_Contents">
+                    <h2>MOBILE</h2> <h3>APPLICATION</h3>
+                    <h3 class="price">N78,000/ Month</h3>
+                </div>
+                        <p class="Item_1"> XML </p><br />
+                        <p class="Item_1"> JAVA </p><br />
+                        <p class="Item_1"> KOTLIN </p><br />
+                        <p class="Item_1"> SWIFT </p><br />
+                        <p class="Item_1"> DART </p><br />
+                        <button type="button" class="joiNbut">Join Now</button>
+			</div>
+
+		</div>
+
+<!-- /*Monials DIV Tag beolow***********************************************************************************/ -->
+<!-- /*********************************************************************************************************/ -->
+		<div id="monials" align="center">
+        	<h1 class="HeaderTxt1">Testimonials</h1>
+	            <div class="underLineDiv2"></div>
+            <p class="aftUndLineTxt">
+				Register for our classes to learn how to code on cruise.
+            </p>
+            
+            <div class="moniaL_content" id="moniaL_content">
+            	<embed class="myImg" src="imgs/IMG_20200909_170925.jpg"></embed>
+					<div class="moniaL_info">
+						<p> <script>infoTestimonial();</script> </p>
+                        <h3 class="NameId_1"> Akuezue C. Gerald</h3>
+                        <b class="NameId_2">Web Development</b>
+					</div>
+                    
+            </div>
+ 
+             <div class="moniaL_content">
+             
+            	<embed class="myImg" src="imgs/IMG_20200927_152008.jpg"></embed>
+					<div class="moniaL_info">
+						<p> <script>infoTestimonial();</script> </p>
+                        <h3 class="NameId_1"> Akuezue C. Gerald</h3>
+                        <b class="NameId_2">Web Development</b>
+					</div>
+            </div>
+
+            <div class="moniaL_content">
+            	<embed class="myImg" src="imgs/IMG_20200909_170925.jpg"></embed>
+					<div class="moniaL_info">
+						<p> <script>infoTestimonial();</script> </p>
+                        <h3 class="NameId_1"> Akuezue C. Gerald</h3>
+                        <b class="NameId_2">Web Development</b>
+					</div>
+            </div>
+		</div>
+
+<!-- /*Form and Contacts DIV Tag beolow*************************************************************************/ -->
+<!-- /*********************************************************************************************************/ -->
+		<div id="formNcontacts" align="center">
+        	<h1 class="frmTxtHead">Welcome to Code Snippet</h1>
+	            <div class="underLineDiv2"></div>
+            <p  class="aftUndLineTxt">
+				Get intouch with us and sign up the form below
+            </p>
+                
+        	<div id="FormArea">
+            	<input type="text" id="textField0" name="YName" placeholder="Your Name"><br/>
+            	<input type="text" id="textField" name="UnknownField" placeholder=""><br/>
+            	<input type="text" id="textField" name="ContactNo" placeholder="Phone Number"><br/>
+            	<textarea name="Message" id="textField" placeholder="Leave Us a Message"></textarea><br/>
+                <button type="" id="signUps" name="signUp"><h3>Sign Up</h3></button>
+            </div>
+
+        	<div id="ContactsArea">
+            	<div align="left" class="Contact1"><b>Abuja Office:</b><script>Contacts1();</script></div><br/>
+            	<div align="left" class="Contact2"><b>Vienna Office:</b><script>Contacts2();</script></div><br/>
+            	<div align="left" class="Contact3"><b>Phone Number:</b><script>Contacts3();</script></div><br/>
+            	<div align="left" class="Contact4"><b>Email:</b><script>Contacts4();</script></div><br/>
+            	<div align="left" class="Contact5"><b>Get Social:</b><script>Contacts5();</script></div><br/>
+            </div>
+		</div>
+
+<!-- /*Bottom DIV Tag beolow************************************************************************************/ -->
+<!-- /*********************************************************************************************************/ -->
+        <div id="bottomHead" align="center">
+            <p class="bottomTxt">Copyright @ 2020 All Rights Reserved <b class="snippetBottom">Code Snippet</b></p>
+        </div>
+
+
+<!-- /*last DIV Tag beolow**************************************************************************************/ -->
+	</div>
+<script>	
+	
+</script>
+</body>
+</html>

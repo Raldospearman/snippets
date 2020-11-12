@@ -1,0 +1,414 @@
+@charset "utf-8";
+/* CSS Document */
+/*******************************************************************************************************************/
+/**********************************************Containers*/
+		#GenContents{
+			display:block;
+			position:absolute;fixed;
+			height:100%;
+			width:100%;
+			top:0;
+			left:0;
+			background-color:#CCC;-Ash;
+			}
+		#TopHeader{
+			position:fixed;
+			height:15%;
+			width:100%;
+			/*top:30%;*/
+			background-color:#FFF;-white;
+			transition: 1.6s ease-in-out;
+			}
+		#ImgPart{
+			height:120%;
+			width:100%;
+			padding-top:7.2%;
+			background-color:#39F;#CCC;
+			}
+		#DivCheck{
+			height:auto;
+			width:29%;
+			margin:2%;
+			background-color:#39f;
+			}
+		#aboutUs{
+			height:60%; 90%;100%;
+			width:100%;
+			background-color:#FFF;#39F;-light blue;
+			}
+		#Services{
+			height:142%;205%;
+			width:100%;
+			padding-top:0%;
+			background-color:#00F;
+			background-image:url(../imgs/72259adaa1964e5e8b95d069e27ee156.jpg);
+			}		
+/*other top Div style***********************************************************************************************/
+		#Team{ width:100%; height:130%; margin-top:-0.5%;7.8%; background-color:#FFF;}
+		#pPlans{ width:100%; height:110%; background-color:#CCC;}
+		#monials{ width:100%; height:120%; background-color:#FFF;}
+		#formNcontacts{ width:100%; height:110%; /*margin-bottom:8%;*/ background-color:#CCC;}
+		#bottomHead{
+			position:static;fixed;
+			left:0; margin-top:-2.5%;
+			height:15%; width:100%;
+			color:#0FF;
+			background-color:#39F;#09F;
+			}
+/*Containers Close**************************************************************************************************/
+
+	.HeaderTxt{ margin-top:0%; color:#FFF;}
+	.HeaderTxt1{ margin-top:0%; color:#666;}
+
+/*******************************************************************************************************************/
+/**********************************************TopHeader main Contents*/
+		.txTasLogo{
+			position:relative;
+			float:left;
+			margin:8px;
+			}
+		.SideNavDoor1{
+			display:block;
+			position:relative;
+			float:right;
+			margin:8px;
+			font-size:36px;
+			cursor:pointer;
+			}
+		.SideNavDoor2{
+			display:none;
+			position:relative;
+			float:right;
+			margin:8px;
+			font-size:36px;
+			cursor:pointer;
+			}
+
+		#NavDrop{  width:100%; display:inline-block; }
+		#NavContent{
+			display:none;
+			height:0%;
+			width:100%;
+			float:right;
+			transition: 0.6s ease-in-out;
+			background-color:#FFF;
+			}
+/**********************************************TopHeader less*/
+		.link{
+			display:block;
+			margin-right:10px;
+			color:#000;
+			text-decoration:none;
+			/*visibility:hidden;visible*/
+		}
+		#Itms1{ }
+
+/*******************************************************************************************************************/
+/**********************************************Images Parts*/
+		/*Sliders*******************************************/
+		.prev,
+		.next{
+			margin-left:25%;
+			margin-top:18%;
+			color:#03C;
+			font-size:46px;
+			cursor:pointer;
+			position:absolute;
+			transition: 0.6s ease;
+			padding:16px; color:#CCC;
+			}
+		.next{right:25%; /*color:#F00;*/}
+/***************************Images Div Tags - Ids and Class*/
+		#Img1, #Img2, #Img3{
+			height:500px;
+			width:500px;
+			border-top-left-radius:10%;
+			border-bottom-left-radius:10%;
+			border-top-right-radius:10%;
+			border-bottom-right-radius:10%;
+			transition: 2s ease-in-out;
+			float:inherit;
+			}
+		#Img2,
+		#Img3{ display:none;}
+/**********************************************Images Sliders002*/
+		#mgs{
+			width:75px;
+			height:75px;
+			margin:6px;
+			cursor:pointer;
+			float:left;
+			}
+		#imgSlide1,
+		#imgSlide2,
+		#imgSlide3{
+			height:4px;
+			width:75px;
+			margin:6px;
+			float:left;
+			border:thin;
+			cursor:pointer;			
+			}
+		#imgSlide1{ background-color:green; }
+		.slideFlow{ background-color:#FFF;}
+/*******************************************************************************************************************/
+/**********************************************AboutUs Main Containers*/
+		#TxtBar{
+			height:auto;65%;
+			width:45%;
+			margin:16px;
+			margin-left:3.6%;
+			float:left;
+			border-top-left-radius:18px;
+			border-bottom-left-radius:18px;
+			border-top-right-radius:18px;
+			border-bottom-right-radius:18px;
+			background-color:#FFF;#CCC;
+			 }
+		#ProgressBars{
+			height:auto;65%;
+			width:45%;
+			margin:16px;
+			float:left;
+			border-top-left-radius:18px;
+			border-bottom-left-radius:18px;
+			border-top-right-radius:18px;
+			border-bottom-right-radius:18px;
+			background-color:#FFF;#CCC;
+			 }
+/**********************************************AboutUs Less*/
+	.aboutHead,
+	.aboutTxt,
+	.ProgBarTxt,
+	#aboutTxt2,
+	#showbutton1,
+	#progressButton{
+		margin:8px;
+		}
+	#showbutton2{ display: none; margin:8px; }
+
+	#Bars{
+		height:auto;
+		width:80%;
+		margin:8px;
+		border-top-left-radius:18px;
+		border-bottom-left-radius:18px;
+		border-top-right-radius:18px;
+		border-bottom-right-radius:18px;
+		background-color:#CCC; light Ash;
+		}
+	#Bar1{ width:90%; }
+	#Bar2{ width:80%; }
+	#Bar3{ width:50%; }
+	#Bar4{ width:50%; }
+	#Bar1,#Bar2,#Bar3,#Bar4{
+		height:auto;
+		border-top-left-radius:18px;
+		border-bottom-left-radius:18px;
+		border-top-right-radius:18px;
+		border-bottom-right-radius:18px;
+		/*transition:0.8s ease-in-out;*/
+		background-color:#09F;
+		}
+
+/*******************************************************************************************************************/
+/**********************************************About Our Services Contents*/
+	.serviceClass{ color:#FFF; padding:10px;}
+	.underLineDiv1{
+			height:3px;
+			width:125px;
+			/*margin-left:446px;44.5%;*/
+			margin-top:-2%;
+			background-color:#FFF;#ccc;
+		}
+	.contentsDiv{
+		width:25%;
+		float:left;
+		}	
+	#ServicesDisp{
+		color:#09C;#39F;
+		margin:8px;
+		}
+	#txts{
+		color:#999;#000;
+		margin:8px;
+		}
+
+/*******************************************************************************************************************/
+/**********************************************About Our Team*/
+	#TeamContent{ margin-left:9%; }
+	.TeamContent{
+		width:22%;
+		height:86%;
+		margin-top:1%;
+		margin-left:-2%;
+		border-top-left-radius:10px;
+		border-bottom-left-radius:10px;
+		border-top-right-radius:10px;
+		border-bottom-right-radius:10px;
+		float:left;
+		background-color:#FFF;
+		}
+	.TeamImg{
+		width:100%;
+		height:250px;300px;
+		border-top-left-radius:10px;
+		border-bottom-left-radius:10px;
+		border-top-right-radius:10px;
+		border-bottom-right-radius:10px;
+		}
+	.TeamNameId{ margin-top:-0.2%; color:#09F;}
+	.Discription{ margin:12px; margin-top:-2%; }
+
+/*******************************************************************************************************************/
+/**********************************************Price Plans*/
+	#planz1{ margin-left:14%;}
+	.plans{
+		width:16%;
+		height:80%;
+		margin:12px;
+		margin-top:3%;
+		border-top-left-radius:10px;
+		border-bottom-left-radius:10px;
+		border-top-right-radius:10px;
+		border-bottom-right-radius:10px;
+		float:left;
+		color:#FFF;
+		background-color:#FFF;
+		}
+	.plan_Contents{
+		width:100%;
+		height:34%;
+		margin-top:-20px;
+		border-top-left-radius:10px;
+		border-bottom-left-radius:10px;
+		border-top-right-radius:10px;
+		border-bottom-right-radius:10px;
+		color:#FFF;
+		background-color:#00F;
+		}
+	.price{ color:#CCC;}
+	.Item_1{ margin:4px; color:green;}
+	.Item_0{ margin:4px; color:#F00;}
+	.joiNbut{ width:80%; padding:8px; border:thin; color:#CCC; background-color:#00F;}
+	#showbutton1,
+	#showbutton2,
+	#progressButton,
+	#signUps,
+	.joiNbut{ cursor:pointer;}
+/*******************************************************************************************************************/
+/**********************************************Main Testimonials Contents*/
+	#moniaL_content{ margin-left:17%;}
+	.moniaL_content{
+		width:20%;
+		height:45%;
+		float:left;
+		margin:10px;
+		border-top-left-radius:10px;
+		border-bottom-left-radius:10px;
+		border-top-right-radius:10px;
+		border-bottom-right-radius:10px;
+		background-color:#FFF;
+		}
+/**********************************************Testimonial Less*/
+	.myImg{
+		margin:8px;
+		height:100px;
+		width:100px;
+		border-top-left-radius:47px;
+		border-bottom-left-radius:47px;
+		border-top-right-radius:47px;
+		border-bottom-right-radius:47px;
+		}
+	.moniaL_info{
+		width:100%;
+		height:100%;
+		border-top-left-radius:10px;
+		border-bottom-left-radius:10px;
+		border-top-right-radius:10px;
+		border-bottom-right-radius:10px;
+		color:#FFF;
+		background-color:#CCC;
+		}
+	.NameId_1{ margin-top:18%; color:#09F;}
+	.NameId_2{ color:#000;}
+	
+/*******************************************************************************************************************/
+/**********************************************Forms and Location*/
+	#FormArea{
+		width:45%;
+		height:75%;
+		margin-left: 4%/*if space available*/; /*or*/ 5%/*if no space*/;
+		float:left;
+		border-top-left-radius:15px;
+		border-bottom-left-radius:15px;
+		}
+	#ContactsArea{
+		width:45%;
+		height:75%;
+		margin-left:18px /*if space available*/; /*or*/ 0px /*if no space*/;
+		float:left;
+		border-top-right-radius:15px;
+		border-bottom-right-radius:15px;
+		}
+	#FormArea, #ContactsArea{ background-color:#666;#CCC; }
+/******************************************************Forms and Location Less*/
+
+	.frmTxtHead{ margin-top:-4%; color:#666;}
+	.underLineDiv2{
+			height:3px;
+			width:125px;
+			margin-top:0%;
+			background-color:#00F;
+		}
+	.aftUndLineTxt{
+			margin-top:2%;
+			color:#FFF;
+		}
+
+	#textField,
+	#textField0{
+		width:75%;
+		padding:8px 8px;
+		margin:8px;
+		/*border:thin;*/
+		/*float:left;*/
+		}
+	#textField0{margin-top:12px;}
+	#signUps{
+		width:79%;
+		padding:4px;
+		margin:12px;
+		color:#FFF;
+		border:midium;
+		background-color:#00F;
+		border-color:#00F;
+		/*float:left;*/
+		}
+	.Contact1, .Contact2, .Contact3, .Contact4, .Contact5{
+		width:84%;
+		padding:18px;
+		color:#000;
+		background-color:#FFF;
+		}
+
+	.Contact1{ margin-top:12px; }
+	.Contact2, .Contact3, .Contact4, .Contact5{ margin:-2px; }
+	.bottomTxt{ margin-top:22px; color:#FFF;}
+	.snippetBottom{ color:#0FF;}
+
+/*******************************************************************************************************************/
+
+		.show{ display:block; transition: 1.6s ease-in-out;}/*-webkit-animation:fadeIn 3s; animation:fadeIn 3s;*/
+		.showO{ visibility: visible; animation:fadeIn 3s; }
+		
+		@-webkit-keyframes fadeIn{
+			from{ opacity:0;}s
+			to{ opacity:1;}
+			}
+		@keyframes fadeIn{
+			from{ opacity:0;}
+			to{ opacity:1;}
+			}
+
+/*******************************************************************************************************************/
